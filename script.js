@@ -16,7 +16,8 @@ document.addEventListener('DOMContentLoaded', function () {
     if (!thumb || thumb.classList.contains('fallback')) return;
     var heading = el.querySelector('h3') || (el.closest('article') && el.closest('article').querySelector('h3'));
     var label = heading ? heading.childNodes[0].textContent.trim() : site;
-    var src = 'https://s.wordpress.com/mshots/v1/' + encodeURIComponent(site) + '?w=1000&h=625';
+    thumb.classList.add('loading');
+    var src = 'https://s.wordpress.com/mshots/v1/' + encodeURIComponent(site) + '?w=1280&h=800';
     var img = new Image();
     var tries = 0;
     function fallback() {
