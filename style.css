@@ -200,6 +200,13 @@ main { padding-bottom: 40px; }
     radial-gradient(360px 220px at 0% 100%, rgb(255 255 255 / .08), transparent 60%),
     linear-gradient(150deg, #3a2610, #6e4a18 60%, #8a6020);
 }
+.thumb.poster-nura {
+  background:
+    radial-gradient(420px 240px at 85% 0%, rgb(232 194 90 / .40), transparent 65%),
+    radial-gradient(380px 240px at 0% 100%, rgb(214 120 150 / .30), transparent 60%),
+    linear-gradient(150deg, #1b0f14, #3b1c27 55%, #5a2a38);
+}
+.thumb.poster-nura .poster-badge { color: #1b0f14; }
 .poster-kicker { font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: rgb(255 255 255 / .7); font-weight: 600; }
 .poster-title { font-family: 'Fraunces', Georgia, serif; font-size: clamp(30px, 3.6vw, 44px); font-weight: 700; line-height: 1.05; }
 .poster-sub { font-size: 14px; color: rgb(255 255 255 / .8); max-width: 300px; }
