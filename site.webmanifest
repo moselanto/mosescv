@@ -1,0 +1,20 @@
+{
+  "name": "Moses Njeru Munyi - CV",
+  "short_name": "Moses CV",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#0d1730",
+  "background_color": "#0d1730",
+  "display": "standalone",
+  "start_url": "./"
+}

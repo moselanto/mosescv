@@ -6,6 +6,10 @@
   <title>Moses Njeru Munyi | Founder, Pimofy Digital &middot; Product Builder &amp; Full-Stack Developer</title>
   <meta name="description" content="Moses Njeru Munyi - Nairobi-based founder, product builder and full-stack web developer. Founder of Pimofy Digital, ASCENDR and Introthread. 10+ years delivering web platforms, e-commerce and data operations, including 4 years with US technology companies (Getro, Findem)." />
   <meta name="author" content="Moses Njeru Munyi" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
   <link rel="canonical" href="https://moselanto.github.io/mosescv/" />
   <meta name="theme-color" content="#0d1730" />
 
@@ -60,6 +64,7 @@
       <a class="brand" href="#top" aria-label="Back to top"><span>MN</span>Moses Njeru Munyi</a>
       <ul>
         <li><a href="#products">Ventures</a></li>
+        <li><a href="#wordpress">WordPress</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#portfolio">Client work</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -330,9 +335,89 @@
       </article>
     </section>
 
+    <!-- ================= WORDPRESS ENGINEERING ================= -->
+    <section class="block reveal" id="wordpress">
+      <div class="block-head"><span class="num">03</span><h2>WordPress engineering</h2></div>
+      <p class="lead">Custom themes and plugins I have written from scratch, each kept in version control with its own architecture, security and handover documentation.</p>
+
+      <div class="wp-grid">
+        <article class="wp-card wp-feature">
+          <div class="wp-top">
+            <h3><a href="https://dckabeten.org/" target="_blank" rel="noopener">Deliverance Church Kabete N Market</a></h3>
+            <span class="wp-site">dckabeten.org &middot; Nairobi, Kenya</span>
+          </div>
+          <ul class="wp-pkgs">
+            <li><b>DCK Elite Pro</b><span>Custom theme &middot; v4.33</span></li>
+            <li><b>DCK Core</b><span>Custom plugin &middot; v1.10</span></li>
+          </ul>
+          <ul class="points">
+            <li>16 pages including Sermons, Watch Live, Bible, Events, Give, Prayer and Ministries, all editable by church staff from a single &ldquo;DCK Church&rdquo; settings screen, with no code changes.</li>
+            <li>Multilingual Bible reader with 17 versions, including Kiswahili, Gikuyu, Dholuo, Somali and Borana, plus compare, highlights and verse images.</li>
+            <li>AI church assistant &ldquo;Hope&rdquo;, an AI Bible study assistant, AI sermon search and sermon transcription for staff.</li>
+            <li>Custom post types for sermons, events and gallery, and private records for prayer requests and messages, served through a <code>dck/v1</code> REST API with nonces, honeypots, rate limits and same-origin CORS.</li>
+            <li>Instant M-Pesa giving through Paystack with webhook auto-verification, plus a member register with Excel import and export, event registration and check-in, and an installable mobile app.</li>
+            <li>Two-factor login enforced for staff, security headers and login limiting, and a written security audit.</li>
+          </ul>
+          <ul class="chips" aria-label="Technology">
+            <li>PHP</li><li>Custom theme</li><li>Custom plugin</li><li>REST API</li><li>Custom post types</li><li>Paystack &middot; M-Pesa</li><li>AI &middot; RAG</li><li>Schema.org</li>
+          </ul>
+        </article>
+
+        <article class="wp-card">
+          <div class="wp-top">
+            <h3><a href="https://nurabeauty.co.ke/" target="_blank" rel="noopener">NURA Beauty</a></h3>
+            <span class="wp-site">nurabeauty.co.ke &middot; WooCommerce</span>
+          </div>
+          <ul class="wp-pkgs">
+            <li><b>NURA Beauty</b><span>Theme &middot; v1.72 + child theme</span></li>
+            <li><b>NURA Experience</b><span>Plugin &middot; v1.77</span></li>
+          </ul>
+          <ul class="points">
+            <li>WooCommerce store with M-Pesa and card payments through Paystack, one-tap WhatsApp ordering and &ldquo;Lipa Mdogo Mdogo&rdquo; deposit payment plans.</li>
+            <li>AI wig finder, AI stylist chat and in-browser virtual try-on.</li>
+            <li>&ldquo;NURA Desk&rdquo; back office in wp-admin: point of sale with receipts, orders, appointments, supplier ledger, team permissions and an AES-256-GCM encrypted contacts vault.</li>
+          </ul>
+          <ul class="chips" aria-label="Technology"><li>WooCommerce</li><li>Custom plugin</li><li>Child theme</li><li>Paystack</li></ul>
+        </article>
+
+        <article class="wp-card">
+          <div class="wp-top">
+            <h3><a href="https://vtechaudio.co.ke/" target="_blank" rel="noopener">VTECH Audio Visual</a></h3>
+            <span class="wp-site">vtechaudio.co.ke &middot; Lead generation</span>
+          </div>
+          <ul class="wp-pkgs">
+            <li><b>VTECH AV</b><span>Theme &middot; v5.65 + child v5.35</span></li>
+          </ul>
+          <ul class="points">
+            <li>Native Gutenberg build with no page builder and no jQuery, tuned for Core Web Vitals.</li>
+            <li>Built-in equipment hire, quoting and booking back office.</li>
+            <li>Local SEO with LocalBusiness schema and Rank Math, and lead tracking through GA4 and Tag Manager.</li>
+          </ul>
+          <ul class="chips" aria-label="Technology"><li>Gutenberg</li><li>Custom theme</li><li>Local SEO</li><li>GA4</li></ul>
+        </article>
+
+        <article class="wp-card">
+          <div class="wp-top">
+            <h3><a href="https://smilecommunitycentre.org/" target="_blank" rel="noopener">Smile Community Centre</a></h3>
+            <span class="wp-site">smilecommunitycentre.org &middot; Children's home</span>
+          </div>
+          <ul class="wp-pkgs">
+            <li><b>Smile Community</b><span>Theme &middot; v2.31</span></li>
+            <li><b>Core plugin</b><span>v1.3</span></li>
+          </ul>
+          <ul class="points">
+            <li>Built to WCAG 2.2 AA, with 811 site texts and section photos editable by staff without code.</li>
+            <li>M-Pesa giving with one-tap copy, a gift calculator and private pledge forms.</li>
+            <li>Rate-limited forms and sign-in, photo location data stripped on upload, and Google for Jobs data on open roles.</li>
+          </ul>
+          <ul class="chips" aria-label="Technology"><li>Custom theme</li><li>Custom plugin</li><li>Elementor</li><li>Accessibility</li></ul>
+        </article>
+      </div>
+    </section>
+
     <!-- ================= EXPERIENCE ================= -->
     <section class="block reveal" id="experience">
-      <div class="block-head"><span class="num">03</span><h2>Experience</h2></div>
+      <div class="block-head"><span class="num">04</span><h2>Experience</h2></div>
 
       <div class="timeline">
         <article class="job">
@@ -439,7 +524,7 @@
 
     <!-- ================= CLIENT WORK ================= -->
     <section class="block reveal" id="portfolio">
-      <div class="block-head"><span class="num">04</span><h2>Selected client work</h2></div>
+      <div class="block-head"><span class="num">05</span><h2>Selected client work</h2></div>
       <p class="lead">Live websites and platforms delivered for organisations in Kenya, Rwanda and beyond. Every name links to the live site.</p>
 
       <div class="work">
@@ -486,7 +571,7 @@
 
     <!-- ================= SKILLS / EDUCATION ================= -->
     <section class="block reveal" id="skills">
-      <div class="block-head"><span class="num">05</span><h2>Skills, education &amp; credentials</h2></div>
+      <div class="block-head"><span class="num">06</span><h2>Skills, education &amp; credentials</h2></div>
 
       <div class="three">
         <div class="panel">
@@ -531,7 +616,7 @@
 
     <!-- ================= RECOMMENDATION ================= -->
     <section class="block reveal" id="references">
-      <div class="block-head"><span class="num">06</span><h2>Recommendation</h2></div>
+      <div class="block-head"><span class="num">07</span><h2>Recommendation</h2></div>
       <figure class="quote">
         <blockquote>
           Moses is a hardworking and dependable professional with strong technical, analytical, and problem-solving skills.
